@@ -16,7 +16,8 @@ resource "aws_s3_bucket" "dev_s3" {
     git_modifiers        = "pomidorov.ivan"
     git_org              = "dimitryk1"
     git_repo             = "prisma-cloud-devsecops-workshop-fork"
-  }
+    my_tag               = "Dima"
+   }
 }
 
 resource "aws_s3_bucket_ownership_controls" "dev_s3" {
